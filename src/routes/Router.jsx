@@ -1,12 +1,21 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../components/home/Home";
+import Destination from "../components/destination/Destination";
+import Crew from "../components/Crew";
+import Technology from "../components/Technology";
 
-const App = () => {
+const Router = () => {
   return (
     <BrowserRouter>
-      <h1>Hola develop</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="destination" element={<Destination />} />
+        <Route path="crew" element={<Crew />} />
+        <Route path="technology" element={<Technology />} />
+      </Routes>
     </BrowserRouter>
   );
 };
 
-export default App;
+export default Router;

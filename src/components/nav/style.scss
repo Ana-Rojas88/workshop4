@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 830px;
+  height: 96px;
+  left: 610px;
+  top: 40px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  align-items: center;
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+  &__left {
+    padding-left: 1.25rem;
+  }
+}
