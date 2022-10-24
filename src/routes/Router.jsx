@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../components/home/Home";
 import Destination from "../components/destination/Destination";
-import Crew from "../components/Crew";
+import Crew from "../components/crew/Crew";
 import Technology from "../components/Technology";
 
 const Router = () => {

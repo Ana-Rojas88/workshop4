@@ -5,3 +5,81 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.destination {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  &__title-img {
+    margin-left: 230px;
+
+    h2 {
+      height: 34px;
+      width: 382px;
+      margin-top: 212px;
+      border-radius: 0px;
+      color: #ffffff;
+    }
+
+    img {
+      position: absolute;
+      width: 445px;
+      height: 445px;
+      margin-top: 100px;
+    }
+  }
+
+  &__container-right {
+    font-family: Georgia;
+    position: absolute;
+    width: 350px;
+    height: 472px;
+    left: 858px;
+    top: 301px;
+    color: #ffffff;
+  }
+
+  nav {
+    position: absolute;
+    margin-left: 0%;
+    margin-right: 35.84%;
+    margin-top: 0%;
+    bottom: 92.8%;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      list-style: none;
+      cursor: pointer;
+    }
+
+    ul :hover {
+      text-decoration: underline;
+    }
+  }
+
+  .moon {
+    font-size: 70px;
+    margin-top: 50px;
+    font-weight: 100;
+  }
+
+  p {
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: "Barlow";
+    line-height: 20px;
+    font-size: 15px;
+    span {
+      font-size: 8px;
+    }
+  }
+
+  .distance-travel {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+}

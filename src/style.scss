@@ -7,4 +7,14 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: "Mohave", sans-serif;
+
+  text-align: left;
+
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1750px;
+  width: 90%;
 }

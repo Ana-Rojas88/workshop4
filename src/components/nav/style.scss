@@ -1,25 +1,34 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  width: 830px;
-  height: 96px;
-  left: 610px;
-  top: 40px;
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(40.7742px);
-  align-items: center;
+  //align-items: center;
+  // position: absolute;
+  width: 97%;
+  margin: 0 auto;
+  border: 1px solid white;
+  //height: 150px;
+  // left: 55px;
+  // top: 40px;
+  //position: absolute;
 
+  height: 120px;
+  left: 55px;
+  top: 40px;
   &__list {
     display: flex;
     flex-direction: row;
     list-style: none;
-    padding-right: 1.25rem;
     justify-content: space-between;
     align-items: center;
+    //align-items: center;
     gap: 16px;
+    border: 1px solid black;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
   }
   &__left {
-    padding-left: 1.25rem;
+    width: 48px;
+    height: 48px;
   }
 }

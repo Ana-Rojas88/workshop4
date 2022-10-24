@@ -1,7 +1,11 @@
 .homeContainer {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-image: url("../../data/assets/home/background-home-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.main {
+  height: 90vh;
 }
