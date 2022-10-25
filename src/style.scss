@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2? family= Bellefair & display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  // font-family: "Barlow Condensed";
+  // font-style: normal;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Mohave", sans-serif;
+  font-style: normal;
+  text-align: left;
+
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1750px;
+  width: 80%;
+}

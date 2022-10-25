@@ -1,0 +1,53 @@
+.homeContainer {
+  height: 100%;
+  width: 100vw;
+  background-image: url("../../data/assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  &__info {
+    width: 37%;
+    height: max-content;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+    h1 {
+      line-height: 1.5;
+    }
+    span {
+      font-size: 130px;
+    }
+    p {
+      line-height: 2;
+    }
+  }
+  &__buttonContainer {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 100px;
+    button {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background-color: white;
+      border: none;
+      cursor: pointer;
+    }
+    span {
+      font-size: 23px;
+    }
+  }
+}
+// @media (min-width: 768px) {
+//   .main {
+//     flex-direction: column;
+//   }
+// }

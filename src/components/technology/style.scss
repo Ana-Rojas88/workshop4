@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2? family= Bellefair & display=swap");
+.technologyContainer {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../data/assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item {
+  position: absolute;
+  left: 165px;
+  top: 383px;
+  li {
+    list-style: none;
+  }
+  button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+.title {
+  position: absolute;
+  width: 305px;
+  height: 34px;
+  left: 166.5px;
+  top: 212px;
+  color: #979494;
+  span {
+    color: #ffffff;
+    margin: 5px;
+  }
+}
+.info {
+  position: absolute;
+  width: 470px;
+  height: 303px;
+  left: 300px;
+  top: 383px;
+  h3 {
+    position: absolute;
+    height: 19px;
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #d0d6f9;
+  }
+  h2 {
+    position: absolute;
+    height: 64px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 64px / 2 - 89.5px);
+    font-family: "Bellefair";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #ffffff;
+  }
+  p {
+    position: absolute;
+    height: 192px;
+    left: 0%;
+    right: 5.53%;
+    top: calc(50% - 192px / 2 + 55.5px);
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #d0d6f9;
+  }
+}
+
+.img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 960px;
+  top: 272px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
