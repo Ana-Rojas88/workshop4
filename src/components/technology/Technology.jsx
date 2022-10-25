@@ -13,10 +13,10 @@ export const Technology = () => {
       <Nav />
       <section className="technology">
         <div>
-          <article >
+          <article>
             <h2 className="title">
               03
-              <span>Space Launch 101</span>
+              <span>SPACE LAUNCH 101</span>
             </h2>
 
             <div>
