@@ -9,7 +9,7 @@ export const Home = () => {
       <div className="main container">
         <section className="main__info">
           <h1>
-            So, you want to travel<br></br>
+            So, you want to travel to<br></br>
             <span>SPACE</span>
           </h1>
           <p>
@@ -20,7 +20,9 @@ export const Home = () => {
           </p>
         </section>
         <div className="main__buttonContainer">
-          <button>EXOLORE</button>
+          <button>
+            <span>EXPLORE</span>
+          </button>
         </div>
       </div>
     </div>

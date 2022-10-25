@@ -1,0 +1,1 @@
+import "../../src/data/assets/crew/image-douglas-hurley.png";
