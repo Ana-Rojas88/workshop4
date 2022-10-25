@@ -1,47 +1,68 @@
-import React from "react";
-import moon from "../../data/assets/destination/image-moon.png";
+import  { useState } from "react";
 import Nav from "../nav/Nav";
 import "./style.scss";
+import data from "../../data/data.json";
 
 export const Destination = () => {
+
+  const [planets] = useState(data.destinations)
+  const [value, setValue] = useState(0)
+
+  const { name, images, description, distance, travel } = planets[value]
   return (
     <div className="destinationContainer">
       <Nav />
-      <div className="destination">
-        <div className="destination__title-img">
-          <h2> 01 PICK YOUR DESTINATION</h2>
-          <img src={moon} alt="moon"></img>
-        </div>
-        <div className="destination__container-right">
-          <nav>
-            <ul>
-              <li>Moon</li>
-              <li>Mars</li>
-              <li>Europa</li>
-              <li>Titan</li>
+      <section>
+        <div className="destination">
+          <article className="article" >
+            <h2 className="title">
+              01
+              <span>Pick your destination</span>
+            </h2>
+
+            <img className="img"
+              src={images.png}
+              alt={name}
+              title={name}
+            
+            />
+          </article>
+
+          <article className="item2">
+            <ul >
+              {planets.map((item, index) => (
+                <li key={index} className="mr-5">
+                  <button
+                    onClick={() => setValue(index)}
+                    className={`uppercase font-semibold tracking-wider text-gray-200 pb-2 border-b border-transparent ${
+                      index === value && "border-b border-white"
+                    }`}
+                  >
+                    {item.name}
+                  </button>
+                </li>
+              ))}
             </ul>
-          </nav>
-          <h2 className="moon">MOON</h2>
-          <p>
-            See our planet as you've never seen it before. A perfect relaxing
-            trip away to help regain perspective and come back refreshed. While
-            you’re there, take in some history by visiting the Luna 2 and Apollo
-            11 landing sites.
-          </p>
-          <div className="distance-travel">
+
+            <h2 className="name">
+              {name}
+            </h2>
+
             <p>
-              <span>AVG DISTANCE</span>
-              <br />
-              384,400 KM
+              {description}
             </p>
-            <p>
-              <span>EST. TRAVEL TIME</span>
-              <br />
-              384,400 KM
-            </p>
-          </div>
+
+            <ul className="distance-travel">
+              <li>
+                Avg. Distance<span>{distance}</span>
+              </li>
+              <li>
+                Est. travel time<span>{travel}</span>
+              </li>
+            </ul>
+          </article>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

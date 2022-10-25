@@ -13,7 +13,7 @@ export const Technology = () => {
       <Nav />
       <section className="technology">
         <div>
-          <article className="">
+          <article >
             <h2 className="title">
               03
               <span>Space Launch 101</span>

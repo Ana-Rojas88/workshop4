@@ -8,78 +8,101 @@
 
 .destination {
   display: flex;
-  width: 100%;
-  height: 100%;
-
-  &__title-img {
-    margin-left: 230px;
-
+  height: 100vh;
+  width: 100vw;
+  .article {
     h2 {
-      height: 34px;
+      position: absolute;
       width: 382px;
-      margin-top: 212px;
-      border-radius: 0px;
-      color: #ffffff;
+      height: 34px;
+      left: 166.5px;
+      top: 212px;
     }
 
     img {
       position: absolute;
       width: 445px;
       height: 445px;
-      margin-top: 100px;
+      left: 230px;
+      top: 343px;
+
     }
   }
 
-  &__container-right {
-    font-family: Georgia;
+  .item2 {
     position: absolute;
-    width: 350px;
+    width: 445px;
     height: 472px;
     left: 858px;
     top: 301px;
-    color: #ffffff;
-  }
-
-  nav {
-    position: absolute;
-    margin-left: 0%;
-    margin-right: 35.84%;
-    margin-top: 0%;
-    bottom: 92.8%;
 
     ul {
       display: flex;
       flex-direction: row;
-      gap: 10px;
-      list-style: none;
+      gap: 15px;
+
+      li {
+        list-style: none;
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+      }
+
+    }
+
+    .name {
+      font-family: 'Bellefair';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 100px;
+      line-height: 115px;
+      color: #FFFFFF;
+    }
+
+
+
+    button {
+      width: 60px;
+      height: 60px;
+      background-color: transparent;
+      color: #ffffff;
+      font-size: 25px;
       cursor: pointer;
+      border: none;
+      margin: 5px;
     }
-
-    ul :hover {
-      text-decoration: underline;
+    p{
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      color: #D0D6F9;
     }
-  }
+    .distance-travel{
+font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 2.3625px;
+text-transform: uppercase;
+color: #D0D6F9;
+.distance{
 
-  .moon {
-    font-size: 70px;
-    margin-top: 50px;
-    font-weight: 100;
-  }
-
-  p {
-    font-size: 15px;
-    margin-top: 10px;
-    font-family: "Barlow";
-    line-height: 20px;
-    font-size: 15px;
-    span {
-      font-size: 8px;
-    }
-  }
-
-  .distance-travel {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-  }
 }
+.travel{
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+}
+    }
+
+  }
+  
+}
+
