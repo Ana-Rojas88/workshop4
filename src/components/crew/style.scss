@@ -4,4 +4,57 @@
   background-image: url("../../data/assets/crew/background-crew-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  &__container {
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    img {
+      height: 550px;
+      transform: translateX(-50px);
+    }
+  }
+  &__left {
+    width: 45%;
+    height: 78%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 100px;
+    span {
+      margin-right: 10px;
+      color: gray;
+    }
+    ul {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+    }
+    button {
+      background: none;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: max-content;
+    width: 100%;
+    h2 {
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 38px;
+      color: gray;
+    }
+    p {
+      width: 90%;
+      line-height: 1.7;
+    }
+  }
 }

@@ -21,12 +21,16 @@ export default function Crew() {
     <>
       <section className="crew">
         <Nav />
-        <div className="crew__container">
+        <div className="crew__container container">
           <article className="crew__left">
-            <h2>02 MEET YOUR CREW</h2>
-            <h3>{role}</h3>
-            <h2>{name}</h2>
-            <p>{bio}</p>
+            <h2>
+              <span>02</span> MEET YOUR CREW
+            </h2>
+            <div className="crew__info">
+              <h3>{role}</h3>
+              <h2>{name}</h2>
+              <p>{bio}</p>
+            </div>
             <ul>
               {crew.map((item, index) => (
                 <li key={index}>
@@ -43,7 +47,6 @@ export default function Crew() {
 
           <article>
             <img src={images.png} alt={name} title={name} />
-            <p>{images.png}</p>
           </article>
         </div>
       </section>
