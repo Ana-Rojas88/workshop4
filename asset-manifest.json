@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/.github.io/workshop4/static/css/main.577d9596.css",
+    "main.js": "/.github.io/workshop4/static/js/main.3a410040.js",
+    "static/media/background-home-desktop.jpg": "/.github.io/workshop4/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
+    "static/media/background-destination-desktop.jpg": "/.github.io/workshop4/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
+    "static/media/background-crew-desktop.jpg": "/.github.io/workshop4/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
+    "static/media/background-technology-desktop.jpg": "/.github.io/workshop4/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
+    "index.html": "/.github.io/workshop4/index.html",
+    "static/media/logo.svg": "/.github.io/workshop4/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
+    "main.577d9596.css.map": "/.github.io/workshop4/static/css/main.577d9596.css.map",
+    "main.3a410040.js.map": "/.github.io/workshop4/static/js/main.3a410040.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.577d9596.css",
+    "static/js/main.3a410040.js"
+  ]
+}
