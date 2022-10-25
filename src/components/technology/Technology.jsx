@@ -43,7 +43,7 @@ export const Technology = () => {
           </article>
 
           <article className="img">
-            <img src={images} alt={name} />
+            <img src={images.portrait} alt={name} />
           </article>
         </div>
       </section>
