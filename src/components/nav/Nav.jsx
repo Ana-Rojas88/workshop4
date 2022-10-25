@@ -20,20 +20,23 @@ export const Nav = () => {
         <li>
           <NavLink
             style={{ textDecoration: "none", color: "white" }}
-            to="destination"
+            to="/destination"
           >
             <span>01</span> Destination
           </NavLink>
         </li>
         <li>
-          <NavLink style={{ textDecoration: "none", color: "white" }} to="crew">
+          <NavLink
+            style={{ textDecoration: "none", color: "white" }}
+            to="/crew"
+          >
             <span>02</span> Crew
           </NavLink>
         </li>
         <li>
           <NavLink
             style={{ textDecoration: "none", color: "white" }}
-            to="technology"
+            to="/technology"
           >
             <span>03</span> Technology
           </NavLink>
