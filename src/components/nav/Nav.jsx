@@ -14,7 +14,7 @@ export const Nav = () => {
       <ul className="nav__list">
         <li>
           <NavLink style={{ textDecoration: "none", color: "white" }} to="/">
-            <span>00</span> Home
+            <span>00</span> HOME
           </NavLink>
         </li>
         <li>
@@ -22,7 +22,7 @@ export const Nav = () => {
             style={{ textDecoration: "none", color: "white" }}
             to="/destination"
           >
-            <span>01</span> Destination
+            <span>01</span> DESTINATION
           </NavLink>
         </li>
         <li>
@@ -30,7 +30,7 @@ export const Nav = () => {
             style={{ textDecoration: "none", color: "white" }}
             to="/crew"
           >
-            <span>02</span> Crew
+            <span>02</span> CREW
           </NavLink>
         </li>
         <li>
@@ -38,7 +38,7 @@ export const Nav = () => {
             style={{ textDecoration: "none", color: "white" }}
             to="/technology"
           >
-            <span>03</span> Technology
+            <span>03</span> TECHNOLOGY
           </NavLink>
         </li>
       </ul>

@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2? family= Bellefair & display=swap");
+
 .destinationContainer {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-image: url("../../data/assets/destination/background-destination-desktop.jpg");
   background-repeat: no-repeat;
@@ -25,7 +27,6 @@
       height: 445px;
       left: 230px;
       top: 343px;
-
     }
   }
 
@@ -41,28 +42,27 @@
       flex-direction: row;
       gap: 15px;
 
+      justify-content: space-between;
+
       li {
         list-style: none;
-        font-family: 'Barlow Condensed';
+        font-family: "Barlow Condensed";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
         letter-spacing: 2.7px;
       }
-
     }
 
     .name {
-      font-family: 'Bellefair';
+      font-family: "Bellefair";
       font-style: normal;
       font-weight: 400;
       font-size: 100px;
       line-height: 115px;
-      color: #FFFFFF;
+      color: #ffffff;
     }
-
-
 
     button {
       width: 60px;
@@ -74,35 +74,76 @@
       border: none;
       margin: 5px;
     }
-    p{
-      font-family: 'Barlow';
+    p {
+      font-family: Barlow;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: white;
+    }
+
+    hr {
+      position: absolute;
+      left: 0.22%;
+      right: 0%;
+      top: 80.93%;
+      bottom: 18.86%;
+      background: #383b4b;
+    }
+    .distance-travel {
+      font-family: "Barlow Condensed";
       font-style: normal;
       font-weight: 400;
-      font-size: 18px;
-      line-height: 32px;
-      color: #D0D6F9;
-    }
-    .distance-travel{
-font-family: 'Barlow Condensed';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-letter-spacing: 2.3625px;
-text-transform: uppercase;
-color: #D0D6F9;
-.distance{
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 2.3625px;
+      text-transform: uppercase;
+      color: #d0d6f9;
+      padding-top: 20px;
+      position: absolute;
+      left: 0.11%;
+      right: 65.06%;
+      top: 87.08%;
+      bottom: 0%;
 
-}
-.travel{
-font-family: 'Bellefair';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-}
-    }
+      width: 445px;
+      display: flex;
+      justify-content: space-between;
 
+      .avgDistance {
+        font-family: Barlow Condensed;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 2.362499952316284px;
+        text-align: left;
+        span {
+          font-family: Bellefair;
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 32px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+      .travelTime {
+        font-family: Barlow Condensed;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 2.362499952316284px;
+        text-align: left;
+        span {
+          font-family: Bellefair;
+          font-size: 28px;
+          font-weight: 400;
+          line-height: 32px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
   }
-  
 }
-
